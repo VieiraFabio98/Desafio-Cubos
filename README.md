@@ -4,26 +4,24 @@ Siga os passos abaixo para configurar e iniciar o ambiente completo usando **Doc
 
 ---
 
-## 📦 1. Subir os containers
-
 BACKEND
 
 Crie o arquivo .env
 Colar as seguintes variaveis:
 
-API_PORT=3333
-DB_PORT=5432
-DB_USERNAME=cubos_user
-DB_PASSWORD=123456
-DB_NAME=cubos_db
+API_PORT=3333<br>
+DB_PORT=5432<br>
+DB_USERNAME=cubos_user<br>
+DB_PASSWORD=123456<br>
+DB_NAME=cubos_db<br>
 
 ---
 
-Relacionadas com AWS:
-AWS_BUCKET_NAME=
-AWS_BUCKET_REGION=sa-east-1
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
+Relacionadas com AWS:<br>
+AWS_BUCKET_NAME=<br>
+AWS_BUCKET_REGION=sa-east-1<br>
+AWS_ACCESS_KEY_ID=<br>
+AWS_SECRET_ACCESS_KEY=<br>
 
 
 execute no terminal:
@@ -35,8 +33,8 @@ yarn seed:run
 ```
 
 
-FRONTEND
-yarn
-yarn dev
+FRONTEND<br>
+yarn<br>
+yarn dev<br>
 
 
